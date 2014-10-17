@@ -11,6 +11,8 @@
 
 @interface SPGooglePlacesAutocompletePlace()
 @property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *shortName;
+@property (nonatomic, strong) NSArray *terms;
 @property (nonatomic, strong) NSString *reference;
 @property (nonatomic, strong) NSString *identifier;
 @property (nonatomic) SPGooglePlacesAutocompletePlaceType type;
@@ -26,7 +28,32 @@
     place.identifier = placeDictionary[@"id"];
     place.type = SPPlaceTypeFromDictionary(placeDictionary);
     place.key = apiKey;
+    [place loadTerms:placeDictionary];
     return place;
+}
+
+- (void) loadTerms:(NSDictionary*) placeDictionary {
+    
+    // Read the terms, and create the shortName
+    NSMutableString* mutableShortName = [NSMutableString new];
+    NSMutableArray* terms = [NSMutableArray array];
+    for(NSDictionary* term in placeDictionary[@"terms"]) {
+        [terms addObject:term[@"value"]];
+    }
+    
+    // TODO, is this accurate?
+    for(int i=0;i<terms.count;i++) {
+        if(mutableShortName.length > 0) {
+            [mutableShortName appendString:@", "];
+        }
+        [mutableShortName appendString:terms[i]];
+        if(terms.count > 3 && i >= 2) {
+            break;
+        }
+    }
+    
+    self.terms = terms;
+    self.shortName = mutableShortName;
 }
 
 - (NSString *)description {

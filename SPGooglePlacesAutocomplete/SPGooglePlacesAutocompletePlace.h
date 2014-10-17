@@ -22,6 +22,16 @@
 @property (nonatomic, strong, readonly) NSString *name;
 
 /*!
+ Contains the human-readable short-name for the returned result. This is the name, minus the suburb and country.
+ */
+@property (nonatomic, strong, readonly) NSString *shortName;
+
+/*!
+ Contains the terms that were recieved.
+ */
+@property (nonatomic, strong, readonly) NSArray *terms;
+
+/*!
  Contains the primary 'type' of this place (i.e. "establishment" or "gecode").
  */
 @property (nonatomic, readonly) SPGooglePlacesAutocompletePlaceType type;
