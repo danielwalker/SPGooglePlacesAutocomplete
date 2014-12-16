@@ -1,354 +1,1063 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		6B35175D18179A1400F0BD25 /* SPGooglePlacesAutocompletePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B35175618179A1400F0BD25 /* SPGooglePlacesAutocompletePlace.m */; };
-		6B35175E18179A1400F0BD25 /* SPGooglePlacesAutocompleteQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B35175818179A1400F0BD25 /* SPGooglePlacesAutocompleteQuery.m */; };
-		6B35175F18179A1400F0BD25 /* SPGooglePlacesAutocompleteUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B35175A18179A1400F0BD25 /* SPGooglePlacesAutocompleteUtilities.m */; };
-		6B35176018179A1400F0BD25 /* SPGooglePlacesPlaceDetailQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B35175C18179A1400F0BD25 /* SPGooglePlacesPlaceDetailQuery.m */; };
-		6B9E97C4181798970003E75B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B9E97C3181798970003E75B /* Default-568h@2x.png */; };
-		9C4A632215B64A3F00E15FBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4A632115B64A3F00E15FBA /* UIKit.framework */; };
-		9C4A632415B64A3F00E15FBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4A632315B64A3F00E15FBA /* Foundation.framework */; };
-		9C4A632615B64A3F00E15FBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4A632515B64A3F00E15FBA /* CoreGraphics.framework */; };
-		9C4A632C15B64A3F00E15FBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A632A15B64A3F00E15FBA /* InfoPlist.strings */; };
-		9C4A632E15B64A3F00E15FBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4A632D15B64A3F00E15FBA /* main.m */; };
-		9C4A633215B64A3F00E15FBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4A633115B64A3F00E15FBA /* AppDelegate.m */; };
-		9C4A633C15B64C9200E15FBA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4A633B15B64C9200E15FBA /* CoreLocation.framework */; };
-		9C4A634715B6950C00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4A634515B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.m */; };
-		9C4A634815B6950C00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A634615B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.xib */; };
-		9C4A634A15B695FA00E15FBA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4A634915B695FA00E15FBA /* MapKit.framework */; };
-		9C4A63A615B6C01100E15FBA /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A63A415B6C01100E15FBA /* location.png */; };
-		9C4A63A715B6C01100E15FBA /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A63A515B6C01100E15FBA /* location@2x.png */; };
-		9C4A63AE15B6C0DB00E15FBA /* locateButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A63AC15B6C0DB00E15FBA /* locateButton.png */; };
-		9C4A63AF15B6C0DB00E15FBA /* locateButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A63AD15B6C0DB00E15FBA /* locateButton@2x.png */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		373A64C319F0B34F006C9AE8 /* SPGooglePlacesAutocomplete.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = SPGooglePlacesAutocomplete.podspec; path = ../SPGooglePlacesAutocomplete.podspec; sourceTree = "<group>"; };
-		6B35175518179A1400F0BD25 /* SPGooglePlacesAutocompletePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocompletePlace.h; sourceTree = "<group>"; };
-		6B35175618179A1400F0BD25 /* SPGooglePlacesAutocompletePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesAutocompletePlace.m; sourceTree = "<group>"; };
-		6B35175718179A1400F0BD25 /* SPGooglePlacesAutocompleteQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocompleteQuery.h; sourceTree = "<group>"; };
-		6B35175818179A1400F0BD25 /* SPGooglePlacesAutocompleteQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesAutocompleteQuery.m; sourceTree = "<group>"; };
-		6B35175918179A1400F0BD25 /* SPGooglePlacesAutocompleteUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocompleteUtilities.h; sourceTree = "<group>"; };
-		6B35175A18179A1400F0BD25 /* SPGooglePlacesAutocompleteUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesAutocompleteUtilities.m; sourceTree = "<group>"; };
-		6B35175B18179A1400F0BD25 /* SPGooglePlacesPlaceDetailQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesPlaceDetailQuery.h; sourceTree = "<group>"; };
-		6B35175C18179A1400F0BD25 /* SPGooglePlacesPlaceDetailQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesPlaceDetailQuery.m; sourceTree = "<group>"; };
-		6B35176118189AA200F0BD25 /* SPGooglePlacesAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocomplete.h; sourceTree = "<group>"; };
-		6B9E97C3181798970003E75B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		9C4A631D15B64A3F00E15FBA /* SPGooglePlacesAutocompleteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPGooglePlacesAutocompleteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C4A632115B64A3F00E15FBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9C4A632315B64A3F00E15FBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9C4A632515B64A3F00E15FBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9C4A632915B64A3F00E15FBA /* SPGooglePlacesAutocompleteDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPGooglePlacesAutocompleteDemo-Info.plist"; sourceTree = "<group>"; };
-		9C4A632B15B64A3F00E15FBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9C4A632D15B64A3F00E15FBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9C4A632F15B64A3F00E15FBA /* SPGooglePlacesAutocompleteDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPGooglePlacesAutocompleteDemo-Prefix.pch"; sourceTree = "<group>"; };
-		9C4A633015B64A3F00E15FBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9C4A633115B64A3F00E15FBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9C4A633B15B64C9200E15FBA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		9C4A634415B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocompleteDemoViewController.h; sourceTree = "<group>"; };
-		9C4A634515B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesAutocompleteDemoViewController.m; sourceTree = "<group>"; };
-		9C4A634615B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPGooglePlacesAutocompleteDemoViewController.xib; sourceTree = "<group>"; };
-		9C4A634915B695FA00E15FBA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		9C4A63A415B6C01100E15FBA /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
-		9C4A63A515B6C01100E15FBA /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
-		9C4A63AC15B6C0DB00E15FBA /* locateButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locateButton.png; sourceTree = "<group>"; };
-		9C4A63AD15B6C0DB00E15FBA /* locateButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "locateButton@2x.png"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		9C4A631A15B64A3F00E15FBA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C4A634A15B695FA00E15FBA /* MapKit.framework in Frameworks */,
-				9C4A633C15B64C9200E15FBA /* CoreLocation.framework in Frameworks */,
-				9C4A632215B64A3F00E15FBA /* UIKit.framework in Frameworks */,
-				9C4A632415B64A3F00E15FBA /* Foundation.framework in Frameworks */,
-				9C4A632615B64A3F00E15FBA /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		6B35175418179A1400F0BD25 /* SPGooglePlacesAutocomplete */ = {
-			isa = PBXGroup;
-			children = (
-				6B35176118189AA200F0BD25 /* SPGooglePlacesAutocomplete.h */,
-				6B35175518179A1400F0BD25 /* SPGooglePlacesAutocompletePlace.h */,
-				6B35175618179A1400F0BD25 /* SPGooglePlacesAutocompletePlace.m */,
-				6B35175718179A1400F0BD25 /* SPGooglePlacesAutocompleteQuery.h */,
-				6B35175818179A1400F0BD25 /* SPGooglePlacesAutocompleteQuery.m */,
-				6B35175B18179A1400F0BD25 /* SPGooglePlacesPlaceDetailQuery.h */,
-				6B35175C18179A1400F0BD25 /* SPGooglePlacesPlaceDetailQuery.m */,
-				6B35175918179A1400F0BD25 /* SPGooglePlacesAutocompleteUtilities.h */,
-				6B35175A18179A1400F0BD25 /* SPGooglePlacesAutocompleteUtilities.m */,
-			);
-			name = SPGooglePlacesAutocomplete;
-			path = ../SPGooglePlacesAutocomplete;
-			sourceTree = "<group>";
-		};
-		9C4A631215B64A3F00E15FBA = {
-			isa = PBXGroup;
-			children = (
-				6B35175418179A1400F0BD25 /* SPGooglePlacesAutocomplete */,
-				9C4A632715B64A3F00E15FBA /* SPGooglePlacesAutocompleteDemo */,
-				9C4A632015B64A3F00E15FBA /* Frameworks */,
-				9C4A631E15B64A3F00E15FBA /* Products */,
-				373A64C319F0B34F006C9AE8 /* SPGooglePlacesAutocomplete.podspec */,
-			);
-			sourceTree = "<group>";
-		};
-		9C4A631E15B64A3F00E15FBA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9C4A631D15B64A3F00E15FBA /* SPGooglePlacesAutocompleteDemo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9C4A632015B64A3F00E15FBA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9C4A634915B695FA00E15FBA /* MapKit.framework */,
-				9C4A633B15B64C9200E15FBA /* CoreLocation.framework */,
-				9C4A632115B64A3F00E15FBA /* UIKit.framework */,
-				9C4A632315B64A3F00E15FBA /* Foundation.framework */,
-				9C4A632515B64A3F00E15FBA /* CoreGraphics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9C4A632715B64A3F00E15FBA /* SPGooglePlacesAutocompleteDemo */ = {
-			isa = PBXGroup;
-			children = (
-				9C4A633015B64A3F00E15FBA /* AppDelegate.h */,
-				9C4A633115B64A3F00E15FBA /* AppDelegate.m */,
-				9C4A634415B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.h */,
-				9C4A634515B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.m */,
-				9C4A634615B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.xib */,
-				9C4A632815B64A3F00E15FBA /* Supporting Files */,
-				9C4A63A315B6BFFC00E15FBA /* Resources */,
-			);
-			name = SPGooglePlacesAutocompleteDemo;
-			path = SPGooglePlacesAutocomplete;
-			sourceTree = "<group>";
-		};
-		9C4A632815B64A3F00E15FBA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6B9E97C3181798970003E75B /* Default-568h@2x.png */,
-				9C4A632915B64A3F00E15FBA /* SPGooglePlacesAutocompleteDemo-Info.plist */,
-				9C4A632A15B64A3F00E15FBA /* InfoPlist.strings */,
-				9C4A632D15B64A3F00E15FBA /* main.m */,
-				9C4A632F15B64A3F00E15FBA /* SPGooglePlacesAutocompleteDemo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9C4A63A315B6BFFC00E15FBA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9C4A63AC15B6C0DB00E15FBA /* locateButton.png */,
-				9C4A63AD15B6C0DB00E15FBA /* locateButton@2x.png */,
-				9C4A63A415B6C01100E15FBA /* location.png */,
-				9C4A63A515B6C01100E15FBA /* location@2x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		9C4A631C15B64A3F00E15FBA /* SPGooglePlacesAutocompleteDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9C4A633515B64A3F00E15FBA /* Build configuration list for PBXNativeTarget "SPGooglePlacesAutocompleteDemo" */;
-			buildPhases = (
-				9C4A631915B64A3F00E15FBA /* Sources */,
-				9C4A631A15B64A3F00E15FBA /* Frameworks */,
-				9C4A631B15B64A3F00E15FBA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SPGooglePlacesAutocompleteDemo;
-			productName = SPGooglePlacesAutocomplete;
-			productReference = 9C4A631D15B64A3F00E15FBA /* SPGooglePlacesAutocompleteDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		9C4A631415B64A3F00E15FBA /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = tickbox.com.au;
-			};
-			buildConfigurationList = 9C4A631715B64A3F00E15FBA /* Build configuration list for PBXProject "SPGooglePlacesAutocompleteDemo" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 9C4A631215B64A3F00E15FBA;
-			productRefGroup = 9C4A631E15B64A3F00E15FBA /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				9C4A631C15B64A3F00E15FBA /* SPGooglePlacesAutocompleteDemo */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		9C4A631B15B64A3F00E15FBA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C4A632C15B64A3F00E15FBA /* InfoPlist.strings in Resources */,
-				9C4A634815B6950C00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.xib in Resources */,
-				9C4A63A615B6C01100E15FBA /* location.png in Resources */,
-				9C4A63A715B6C01100E15FBA /* location@2x.png in Resources */,
-				9C4A63AE15B6C0DB00E15FBA /* locateButton.png in Resources */,
-				6B9E97C4181798970003E75B /* Default-568h@2x.png in Resources */,
-				9C4A63AF15B6C0DB00E15FBA /* locateButton@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		9C4A631915B64A3F00E15FBA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C4A632E15B64A3F00E15FBA /* main.m in Sources */,
-				6B35175E18179A1400F0BD25 /* SPGooglePlacesAutocompleteQuery.m in Sources */,
-				6B35176018179A1400F0BD25 /* SPGooglePlacesPlaceDetailQuery.m in Sources */,
-				6B35175F18179A1400F0BD25 /* SPGooglePlacesAutocompleteUtilities.m in Sources */,
-				6B35175D18179A1400F0BD25 /* SPGooglePlacesAutocompletePlace.m in Sources */,
-				9C4A633215B64A3F00E15FBA /* AppDelegate.m in Sources */,
-				9C4A634715B6950C00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9C4A632A15B64A3F00E15FBA /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C4A632B15B64A3F00E15FBA /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		9C4A633315B64A3F00E15FBA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		9C4A633415B64A3F00E15FBA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9C4A633615B64A3F00E15FBA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteDemo-Prefix.pch";
-				INFOPLIST_FILE = "SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = SPGooglePlacesAutocompleteDemo;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		9C4A633715B64A3F00E15FBA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteDemo-Prefix.pch";
-				INFOPLIST_FILE = "SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = SPGooglePlacesAutocompleteDemo;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		9C4A631715B64A3F00E15FBA /* Build configuration list for PBXProject "SPGooglePlacesAutocompleteDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9C4A633315B64A3F00E15FBA /* Debug */,
-				9C4A633415B64A3F00E15FBA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9C4A633515B64A3F00E15FBA /* Build configuration list for PBXNativeTarget "SPGooglePlacesAutocompleteDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9C4A633615B64A3F00E15FBA /* Debug */,
-				9C4A633715B64A3F00E15FBA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 9C4A631415B64A3F00E15FBA /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>373A64C319F0B34F006C9AE8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>SPGooglePlacesAutocomplete.podspec</string>
+			<key>path</key>
+			<string>../SPGooglePlacesAutocomplete.podspec</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>420C6C31751806E4E919F3A7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>path</key>
+			<string>../Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5791E85FBA86B92DF57F8219</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>5FBE28A1F9192DA22F5A06FD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>420C6C31751806E4E919F3A7</string>
+				<string>82D55B299BEB89E28C21A5DB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B35175418179A1400F0BD25</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6B35176118189AA200F0BD25</string>
+				<string>6B35175518179A1400F0BD25</string>
+				<string>6B35175618179A1400F0BD25</string>
+				<string>6B35175718179A1400F0BD25</string>
+				<string>6B35175818179A1400F0BD25</string>
+				<string>6B35175B18179A1400F0BD25</string>
+				<string>6B35175C18179A1400F0BD25</string>
+				<string>6B35175918179A1400F0BD25</string>
+				<string>6B35175A18179A1400F0BD25</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SPGooglePlacesAutocomplete</string>
+			<key>path</key>
+			<string>../SPGooglePlacesAutocomplete</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B35175518179A1400F0BD25</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocompletePlace.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B35175618179A1400F0BD25</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocompletePlace.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B35175718179A1400F0BD25</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocompleteQuery.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B35175818179A1400F0BD25</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocompleteQuery.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B35175918179A1400F0BD25</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocompleteUtilities.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B35175A18179A1400F0BD25</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocompleteUtilities.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B35175B18179A1400F0BD25</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SPGooglePlacesPlaceDetailQuery.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B35175C18179A1400F0BD25</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SPGooglePlacesPlaceDetailQuery.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B35175D18179A1400F0BD25</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6B35175618179A1400F0BD25</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6B35175E18179A1400F0BD25</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6B35175818179A1400F0BD25</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6B35175F18179A1400F0BD25</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6B35175A18179A1400F0BD25</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6B35176018179A1400F0BD25</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6B35175C18179A1400F0BD25</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6B35176118189AA200F0BD25</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocomplete.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B9E97C3181798970003E75B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>name</key>
+			<string>Default-568h@2x.png</string>
+			<key>path</key>
+			<string>../Default-568h@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6B9E97C4181798970003E75B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6B9E97C3181798970003E75B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>82D55B299BEB89E28C21A5DB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.release.xcconfig</string>
+			<key>path</key>
+			<string>../Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A631215B64A3F00E15FBA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6B35175418179A1400F0BD25</string>
+				<string>9C4A632715B64A3F00E15FBA</string>
+				<string>9C4A632015B64A3F00E15FBA</string>
+				<string>9C4A631E15B64A3F00E15FBA</string>
+				<string>373A64C319F0B34F006C9AE8</string>
+				<string>5FBE28A1F9192DA22F5A06FD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A631415B64A3F00E15FBA</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>tickbox.com.au</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>9C4A631715B64A3F00E15FBA</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>9C4A631215B64A3F00E15FBA</string>
+			<key>productRefGroup</key>
+			<string>9C4A631E15B64A3F00E15FBA</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>9C4A631C15B64A3F00E15FBA</string>
+			</array>
+		</dict>
+		<key>9C4A631715B64A3F00E15FBA</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9C4A633315B64A3F00E15FBA</string>
+				<string>9C4A633415B64A3F00E15FBA</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9C4A631915B64A3F00E15FBA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9C4A632E15B64A3F00E15FBA</string>
+				<string>6B35175E18179A1400F0BD25</string>
+				<string>6B35176018179A1400F0BD25</string>
+				<string>6B35175F18179A1400F0BD25</string>
+				<string>6B35175D18179A1400F0BD25</string>
+				<string>9C4A633215B64A3F00E15FBA</string>
+				<string>9C4A634715B6950C00E15FBA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9C4A631A15B64A3F00E15FBA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9C4A634A15B695FA00E15FBA</string>
+				<string>9C4A633C15B64C9200E15FBA</string>
+				<string>9C4A632215B64A3F00E15FBA</string>
+				<string>9C4A632415B64A3F00E15FBA</string>
+				<string>9C4A632615B64A3F00E15FBA</string>
+				<string>C39F1D145351BA09EE975F61</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9C4A631B15B64A3F00E15FBA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9C4A632C15B64A3F00E15FBA</string>
+				<string>9C4A634815B6950C00E15FBA</string>
+				<string>9C4A63A615B6C01100E15FBA</string>
+				<string>9C4A63A715B6C01100E15FBA</string>
+				<string>9C4A63AE15B6C0DB00E15FBA</string>
+				<string>6B9E97C4181798970003E75B</string>
+				<string>9C4A63AF15B6C0DB00E15FBA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9C4A631C15B64A3F00E15FBA</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9C4A633515B64A3F00E15FBA</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C34000ED940BD84576990F6C</string>
+				<string>9C4A631915B64A3F00E15FBA</string>
+				<string>9C4A631A15B64A3F00E15FBA</string>
+				<string>9C4A631B15B64A3F00E15FBA</string>
+				<string>D705CABE52FA39E6EBCA6F7D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SPGooglePlacesAutocompleteDemo</string>
+			<key>productName</key>
+			<string>SPGooglePlacesAutocomplete</string>
+			<key>productReference</key>
+			<string>9C4A631D15B64A3F00E15FBA</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>9C4A631D15B64A3F00E15FBA</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocompleteDemo.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>9C4A631E15B64A3F00E15FBA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9C4A631D15B64A3F00E15FBA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A632015B64A3F00E15FBA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9C4A634915B695FA00E15FBA</string>
+				<string>9C4A633B15B64C9200E15FBA</string>
+				<string>9C4A632115B64A3F00E15FBA</string>
+				<string>9C4A632315B64A3F00E15FBA</string>
+				<string>9C4A632515B64A3F00E15FBA</string>
+				<string>5791E85FBA86B92DF57F8219</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A632115B64A3F00E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>9C4A632215B64A3F00E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A632115B64A3F00E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A632315B64A3F00E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>9C4A632415B64A3F00E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A632315B64A3F00E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A632515B64A3F00E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>9C4A632615B64A3F00E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A632515B64A3F00E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A632715B64A3F00E15FBA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9C4A633015B64A3F00E15FBA</string>
+				<string>9C4A633115B64A3F00E15FBA</string>
+				<string>9C4A634415B6950B00E15FBA</string>
+				<string>9C4A634515B6950B00E15FBA</string>
+				<string>9C4A634615B6950B00E15FBA</string>
+				<string>9C4A632815B64A3F00E15FBA</string>
+				<string>9C4A63A315B6BFFC00E15FBA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SPGooglePlacesAutocompleteDemo</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocomplete</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A632815B64A3F00E15FBA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6B9E97C3181798970003E75B</string>
+				<string>9C4A632915B64A3F00E15FBA</string>
+				<string>9C4A632A15B64A3F00E15FBA</string>
+				<string>9C4A632D15B64A3F00E15FBA</string>
+				<string>9C4A632F15B64A3F00E15FBA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A632915B64A3F00E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocompleteDemo-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A632A15B64A3F00E15FBA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9C4A632B15B64A3F00E15FBA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A632B15B64A3F00E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A632C15B64A3F00E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A632A15B64A3F00E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A632D15B64A3F00E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A632E15B64A3F00E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A632D15B64A3F00E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A632F15B64A3F00E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocompleteDemo-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A633015B64A3F00E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A633115B64A3F00E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A633215B64A3F00E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A633115B64A3F00E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A633315B64A3F00E15FBA</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9C4A633415B64A3F00E15FBA</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>OTHER_CFLAGS</key>
+				<string>-DNS_BLOCK_ASSERTIONS=1</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9C4A633515B64A3F00E15FBA</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9C4A633615B64A3F00E15FBA</string>
+				<string>9C4A633715B64A3F00E15FBA</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9C4A633615B64A3F00E15FBA</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>420C6C31751806E4E919F3A7</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteDemo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteDemo-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>PRODUCT_NAME</key>
+				<string>SPGooglePlacesAutocompleteDemo</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9C4A633715B64A3F00E15FBA</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>82D55B299BEB89E28C21A5DB</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteDemo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteDemo-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>PRODUCT_NAME</key>
+				<string>SPGooglePlacesAutocompleteDemo</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9C4A633B15B64C9200E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreLocation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreLocation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>9C4A633C15B64C9200E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A633B15B64C9200E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A634415B6950B00E15FBA</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocompleteDemoViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A634515B6950B00E15FBA</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocompleteDemoViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A634615B6950B00E15FBA</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>path</key>
+			<string>SPGooglePlacesAutocompleteDemoViewController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A634715B6950C00E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A634515B6950B00E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A634815B6950C00E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A634615B6950B00E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A634915B695FA00E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MapKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/MapKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>9C4A634A15B695FA00E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A634915B695FA00E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A63A315B6BFFC00E15FBA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9C4A63AC15B6C0DB00E15FBA</string>
+				<string>9C4A63AD15B6C0DB00E15FBA</string>
+				<string>9C4A63A415B6C01100E15FBA</string>
+				<string>9C4A63A515B6C01100E15FBA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A63A415B6C01100E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>location.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A63A515B6C01100E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>location@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A63A615B6C01100E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A63A415B6C01100E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A63A715B6C01100E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A63A515B6C01100E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A63AC15B6C0DB00E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>locateButton.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A63AD15B6C0DB00E15FBA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>locateButton@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C4A63AE15B6C0DB00E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A63AC15B6C0DB00E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C4A63AF15B6C0DB00E15FBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C4A63AD15B6C0DB00E15FBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C34000ED940BD84576990F6C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>C39F1D145351BA09EE975F61</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5791E85FBA86B92DF57F8219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D705CABE52FA39E6EBCA6F7D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>9C4A631415B64A3F00E15FBA</string>
+</dict>
+</plist>

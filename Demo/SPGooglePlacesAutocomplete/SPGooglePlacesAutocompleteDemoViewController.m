@@ -19,7 +19,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        searchQuery = [[SPGooglePlacesAutocompleteQuery alloc] initWithApiKey:@"AIzaSyAFsaDn7vyI8pS53zBgYRxu0HfRwYqH-9E"];
+        searchQuery = [[SPGooglePlacesAutocompleteQuery alloc] initWithApiKey:@"AIzaSyALO4yEYbMlp5Nrid8Cp8PE53SQcbnEMQc"];//AIzaSyAFsaDn7vyI8pS53zBgYRxu0HfRwYqH-9E
         shouldBeginEditing = YES;
     }
     return self;

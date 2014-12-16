@@ -47,6 +47,11 @@
 @property (nonatomic, strong, readonly) NSString *identifier;
 
 /*!
+ Contains the place_id
+ */
+@property (nonatomic, strong, readonly) NSString *placeIdentifier;
+
+/*!
  Your application's API key. This key identifies your application for purposes of quota management. Visit the APIs Console to select an API Project and obtain your key. Maps API for Business customers must use the API project created for them as part of their Places for Business purchase. Defaults to kGoogleAPIKey.
  */
 @property (nonatomic, strong) NSString *key;
