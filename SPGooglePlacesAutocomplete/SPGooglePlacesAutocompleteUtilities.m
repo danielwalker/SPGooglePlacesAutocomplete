@@ -23,7 +23,17 @@ NSString *SPBooleanStringForBool(BOOL boolean) {
 }
 
 NSString *SPPlaceTypeStringForPlaceType(SPGooglePlacesAutocompletePlaceType type) {
-    return (type == SPPlaceTypeGeocode) ? @"geocode" : @"establishment";
+    
+    switch (type) {
+        case SPPlaceTypeEstablishment:
+            return @"establishment";
+        case SPPlaceTypeGeocode:
+            return @"geocode";
+        case SPPlaceTypeAddress:
+            return @"address";
+        default:
+            return @"";
+    }    
 }
 
 extern BOOL SPIsEmptyString(NSString *string) {

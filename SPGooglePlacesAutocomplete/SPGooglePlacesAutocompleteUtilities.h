@@ -13,7 +13,8 @@
 typedef enum {
     SPPlaceTypeInvalid = -1,
     SPPlaceTypeGeocode = 0,
-    SPPlaceTypeEstablishment
+    SPPlaceTypeEstablishment = 1,
+    SPPlaceTypeAddress = 2
 } SPGooglePlacesAutocompletePlaceType;
 
 typedef void (^SPGooglePlacesPlacemarkResultBlock)(CLPlacemark *placemark, NSString *addressString, NSError *error);
